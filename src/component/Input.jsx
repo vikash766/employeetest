@@ -1,7 +1,7 @@
 import React from 'react';
-const Input = ({value, placeholder, onChange}) => {
+const Input = ({value, placeholder, onChange, id}) => {
     return(
-        <input value={value} placeholder={placeholder} onChange={onChange} />
+        <input id={id} value={value} placeholder={placeholder} onChange={onChange} />
     )
 }
 

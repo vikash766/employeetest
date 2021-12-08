@@ -14,10 +14,26 @@ const EmployeeForm = (props) => {
             Experience: 7, */}
                 <form action="submit">
                     <Input
-                        // value="",
+                        id="FirstName"
                         placeholder="FirstName"
-                        // onChange={this.onChangeHandler()}
                     />
+                     <Input
+                        id="LastName"
+                        placeholder="LastName"
+                    />
+                     <Input
+                        id="DOB"
+                        placeholder="DOB"
+                    />
+                     <Input
+                        id="DesignationProfile"
+                        placeholder="DesignationProfile"
+                    />
+                     <Input
+                        id="Experience"
+                        placeholder="Experience"
+                    />
+                    
                     <Button
                         buttonText={"submit"}
                         onClick={props.addEmloyee} />
